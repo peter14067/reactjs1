@@ -15,13 +15,14 @@ class Main extends React.Component {
 
 
                
-                  
+                  <table >
                       <td><Link to="/" style={{textDecoration:"none"}}>首頁</Link></td>
                       <td><Link to="/about" style={{textDecoration:"none"}}>關於我們</Link></td>
                       <td><Link to="/about" style={{textDecoration:"none"}}>地圖</Link></td>
                       <td><Link to="/Contact" style={{textDecoration:"none"}}>聯絡我們</Link></td>
                       <td><Link to="/about" style={{textDecoration:"none"}}>js作品集</Link></td>
-               
+                  </table>
+              
                   </div>
                   <hr />
                   <div class="bottom">
