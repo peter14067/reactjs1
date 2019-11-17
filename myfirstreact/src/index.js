@@ -11,7 +11,7 @@ class Main extends React.Component {
       return (
           <HashRouter>
               <div>
-                  <div class="top">
+                  
 
 
                
@@ -23,7 +23,7 @@ class Main extends React.Component {
                       <td><Link to="/about" style={{textDecoration:"none"}}>js作品集</Link></td>
                   
               
-                  </div>
+                  
                   <hr />
                   <div class="bottom">
                     
