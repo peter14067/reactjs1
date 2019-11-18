@@ -7,6 +7,7 @@ class About extends React.Component{
    
         <p>這邊是關於我們</p>
     
+        
         );
     }
 }

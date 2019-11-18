@@ -10,23 +10,30 @@ class Main extends React.Component {
   render() {
       return (
           <HashRouter>
-              <div>
+                 
+                  <div>
+
+
+                 
+                  
+                 
+                  
+                
                   <div class="top">
-
-
-               
-                  <table >
-                      <td><Link to="/" style={{textDecoration:"none"}}>首頁</Link></td>
-                      <td><Link to="/about" style={{textDecoration:"none"}}>關於我們</Link></td>
-                      <td><Link to="/about" style={{textDecoration:"none"}}>地圖</Link></td>
-                      <td><Link to="/Contact" style={{textDecoration:"none"}}>聯絡我們</Link></td>
-                      <td><Link to="/about" style={{textDecoration:"none"}}>js作品集</Link></td>
-                  </table>
-              
-                  </div>
-                  <hr />
-                  <div class="bottom">
+             
+                  
+                      <td><Link to="/" style={{textDecoration:"none",color:"black",marginRight:"10vw"}}>首頁</Link></td>
+                      <td><Link to="/about" style={{textDecoration:"none",color:"black",marginRight:"10vw"}}>關於我們</Link></td>
+                      <td><Link to="/about" style={{textDecoration:"none",color:"black",marginRight:"10vw"}}>地圖</Link></td>
+                      <td><Link to="/Contact" style={{textDecoration:"none",color:"black",marginRight:"10vw"}}>聯絡我們</Link></td>
+                      <td><Link to="/about" style={{textDecoration:"none",color:"black",marginRight:"10vw"}}>js作品集</Link></td>
                     
+                  
+                
+                  </div>
+                 
+                 
+                  <div class="bottom">
 
                   <Route exact path="/" component={Home} />
                   
@@ -34,7 +41,11 @@ class Main extends React.Component {
                   <Route path="/Contact" component={Contact} />
                   </div>
                   
+            
+
+               
               </div>
+              
           </HashRouter>
       )
   }
