@@ -1,115 +1,138 @@
+
+@media (min-width: 400px) {
+
+
+
+
+
+
+
+
+
+
 body{
-  width:100%;
-  padding:0;
-  margin:0;
+
+  width:150vw;
+
+  
 }
 
-td{
-  text-decoration: none;
-}
 
 .top{
-  
-  margin-top:0 auto;
+ 
+ 
   padding:0;
-  width:100%;
-  height:100%;
+  width:50vw;
+  height:0;
   overflow-y:hidden;
   font-weight:bold;
- ;
+ 
   
 }
 
 .bottom{
 
-  background-color: lightskyblue;
-  margin-left:0 auto;
-  margin-top:0 auto ;
+  /*background-color:#2A4F5E;*/
+  
+  margin-top:15vh ;
   padding:0;
   width:120vw;
   height:100vh;
-  overflow-x:hidden;
+  overflow-y:auto;
+}
+
+
+img.logo1{
+height: 30vh;
+width:25%;
+margin-right:2vw ;
+
+  
 }
 
 
 
 
-
-
-
-.container {
-  overflow: hidden;
-}
-.right {
-  float: right;
-  width: 100px;
-}
-.left {
-  float: left;
-  width: 100px;
-}
-.middle {
-  margin: 0 100px;
-}
-
-
-
-.sitebody{
-  　width:600px;
-  　margin:0 auto;
-  　font-size:13px;
-  }
-  .header{
-  　background-color:#FFD4D4;
-  　height:80px;
-  　text-align:center;
-  　line-height:80px;
-  }
-  .sidebar_left{
-  　background-color:#FFECC9;
-  　width:120px;
-  　height:400px;
-  　text-align:center;
-  　line-height:400px;
-  　float:left;
-  }
-  .sidebar_right{
-  　background-color:#FFECC9;
-  　width:120px;
-  　height:400px;
-  　text-align:center;
-  　line-height:400px;
-  　float:right;
-  }
-  .content{
-  　margin-left:120px;
-  　margin-right:120px;
-  　height:400px;
-  　background-color:#F2FFF2;
-  　text-align:center;
-  　line-height:400px;
-  }
-  .footer{
-  　clear:both;
-  　background-color:#FFD4D4;
-  　height:80px;
-  　text-align:center;
-  　line-height:80px;
-  }
 
 
   table{
-    width:50%;
-      align:center;
-      border-collapse:collapse;
-      border:5px solid green;
-    margin : 50px 0px 15px 200px;
-  }
-  th,td{
-   border-collapse:collapse;
-  border:1px solid black;
+    top:0;
+    background-color: white;
+   
+    width:100vw;
+     text-align: right;
+     z-index:1;
+     position:fixed;
    padding:20px;
+  
+ 
+  }
+
+
+
+  table1{
+    width:100%;
+    
+   text-align: center;
+    border-collapse:collapse;
+    margin-left:15vw;
+    margin-top:10vh;
+  
+     
    text-align:center;
-   float:center;
+  
+  }
+  
+
+  tr{
+    text-align: center;
+    border-collapse:collapse;
+    
+    border:1px solid black;
+     padding:20px;
+     text-align:center;
     
   }
+
+  td{
+    text-align: center;
+    border-collapse:collapse;
+    
+    border:1px solid black;
+     padding:20px;
+     text-align:center;
+
+
+  }
+  
+  Link.L1{
+
+    text-decoration:none ;
+    color:grey ;
+    margin-right:5vw ;
+
+
+    
+  }
+  @media (min-width: 1023px) {
+
+
+    body{
+      margin:0px;
+    }
+  
+  
+  
+  }
+}
+  
+@media (min-width: 1023px) {
+
+
+  body{
+    margin:0px;
+  }
+
+
+
+}
