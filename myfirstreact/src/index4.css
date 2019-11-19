@@ -1,7 +1,11 @@
+
+
+
 @media (max-width: 400px) {
 
 
 
+  
   
 body{
 
@@ -53,7 +57,7 @@ float:left;
 p.pc1{
   width:100%;
   font-size: 1em;
-  height:40vh;
+  height:15vh;
  
 }
 
@@ -61,19 +65,20 @@ p.pc1{
 
 img.logo2{
   height: 40vh;
-  width:100%;
-  margin-right:2vw ;
-  display:inline;
-  float:left;
+width:100%;
+margin-right:2vw ;
+display:block;
+float:left;
+
   
     
   }
   
   
   p.pc2{
-    width:90vw;
-    font-size: 1em;
-    height:40vh
+    width:100%;
+  font-size: 1em;
+  height:15vh;
   }
 
 
@@ -104,7 +109,7 @@ img.logo2{
   table{
     top:0;
     background-color: white;
-   
+    
     width:120vw;
      text-align: right;
      z-index:1;
@@ -182,223 +187,9 @@ img.logo2{
 
     
   }
-  @media (min-width: 1023px) {
-
-
-    body{
-      margin:0px;
-    }
-  
-  
-  
-  }
-
-
-}
-
-
-@media (min-width: 400px) {
-
-
-
-
-
-
-
-
-
-
-body{
-
-  width:150vw;
-
-  
-}
-
-
-.top{
  
- 
-  padding:0;
-  width:50vw;
-  height:0;
-  overflow-y:hidden;
-  font-weight:bold;
- 
-  
+
 }
-
-.bottom{
-
-  /*background-color:#2A4F5E;*/
-  
-  margin-top:15vh ;
-  padding:0;
-  width:120vw;
-  height:100vh;
-  overflow-y:auto;
-}
-
-
-
-
-
-img.logo1{
-height: 40vh;
-width:20vw;
-margin-right:2vw ;
-display:inline;
-float:left;
-
-  
-}
-
-
-
-p.pc1{
-  width:90vw;
-  font-size: 1.5em;
-  height:40vh;
- 
-}
-
-
-
-img.logo2{
-  height: 40vh;
-  width:20vw;
-  margin-right:2vw ;
-  display:inline;
-  float:left;
-  
-    
-  }
-  
-  
-  p.pc2{
-    width:90vw;
-    font-size: 1.5em;
-    height:40vh
-  }
-
-
-  img.logo3{
-    height: 40vh;
-    width:20vw;
-    margin-right:2vw ;
-    display:inline;
-    float:left;
-    
-      
-    }
-    
-    
-    p.pc3{
-      width:90vw;
-      font-size: 1.5em;
-      height:40vh
-    }
-  
-
-
-
-
-
-
-
-  table{
-    top:0;
-    background-color: white;
-   
-    width:105vw;
-     text-align: right;
-     z-index:1;
-     position:fixed;
-   padding:20px;
-  
- 
-  }
-
-
-
-  table1{
-    width:100%;
-    
-   text-align: center;
-    border-collapse:collapse;
-    margin-left:15vw;
-    margin-top:10vh;
-  
-     
-   text-align:center;
-  
-  }
-  
-
-  tr{
-    text-align: center;
-    border-collapse:collapse;
-    
-    border:1px solid black;
-     padding:20px;
-     text-align:center;
-    
-  }
-
-  td{
-    text-align: center;
-    border-collapse:collapse;
-    
-    border:1px solid black;
-     padding:20px;
-     text-align:center;
-
-
-  }
-  
-  .Nav_link{
-
-    text-decoration:none ;
-    color:black ;
-    margin-right:2vw ;
-
-
-    
-  }
-
-
-  .Nav_link:hover{
-
-    text-decoration:none ;
-    color:lightsteelblue ;
-    margin-right:2vw ;
-
-
-    
-  }
-
-  
-  .Nav_link1{
-
-    text-decoration:none ;
-    color:grey ;
-    margin-right:5vw ;
-
-
-    
-  }
-  @media (min-width: 1023px) {
-
-
-    body{
-      margin:0px;
-    }
-  
-  
-  
-  }
-}
-  
 @media (min-width: 1023px) {
 
 
@@ -447,3 +238,34 @@ img.logo2{
 
 
 }
+
+
+@media (min-width:736px) and (orientation : landscape){
+
+
+  .Nav_link{
+
+    text-decoration:none ;
+    color:black ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  .Nav_link:hover{
+
+    text-decoration:none ;
+    color:lightblue ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+
+
+}
+
