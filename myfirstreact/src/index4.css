@@ -42,13 +42,66 @@ body{
 }
 
 
+
+
+
 img.logo1{
-height: 30vh;
-width:25%;
+height: 40vh;
+width:20vw;
 margin-right:2vw ;
+display:inline;
+float:left;
 
   
 }
+
+
+
+p.pc1{
+  width:90vw;
+  font-size: 30px;
+  height:40vh;
+ 
+}
+
+
+
+img.logo2{
+  height: 40vh;
+  width:20vw;
+  margin-right:2vw ;
+  display:inline;
+  float:left;
+  
+    
+  }
+  
+  
+  p.pc2{
+    width:90vw;
+    font-size: 30px;
+    height:40vh
+  }
+
+
+  img.logo3{
+    height: 40vh;
+    width:20vw;
+    margin-right:2vw ;
+    display:inline;
+    float:left;
+    
+      
+    }
+    
+    
+    p.pc3{
+      width:90vw;
+      font-size: 30px;
+      height:40vh
+    }
+  
+
 
 
 
@@ -59,7 +112,7 @@ margin-right:2vw ;
     top:0;
     background-color: white;
    
-    width:100vw;
+    width:105vw;
      text-align: right;
      z-index:1;
      position:fixed;
@@ -105,7 +158,29 @@ margin-right:2vw ;
 
   }
   
-  Link.L1{
+  .Nav_link{
+
+    text-decoration:none ;
+    color:black ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  .Nav_link:hover{
+
+    text-decoration:none ;
+    color:lightsteelblue ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+  
+  .Nav_link1{
 
     text-decoration:none ;
     color:grey ;
@@ -131,6 +206,44 @@ margin-right:2vw ;
 
   body{
     margin:0px;
+  }
+
+
+
+  .Nav_link{
+
+    text-decoration:none ;
+    color:black ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  .Nav_link:hover{
+
+    text-decoration:none ;
+    color:lightblue ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+
+  table{
+    top:0;
+    background-color: white;
+   
+    width:95vw;
+     text-align: right;
+     z-index:1;
+     position:fixed;
+   padding:20px;
+  
+ 
   }
 
 
