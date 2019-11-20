@@ -1,11 +1,31 @@
+
+
 body{
   /*background-color:#F9F9F9*/
   background-color:#EFF0F2;
+ /* background-image: url(./pc4.jpg);*/
+
 margin:0 auto;
 padding:0;
+height:200vh;
 
 }
 
+div.about{
+  background-image: url(./pc4.jpg);
+  height:50vh;
+  padding:20%;
+  text-align: center;
+  color:white;
+}
+
+div.about1{
+  background-image: url(./pc3.jpg);
+  height:50vh;
+  padding:20%;
+  text-align: center;
+  color:white;
+}
 
 
 
