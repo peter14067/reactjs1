@@ -1,5 +1,8 @@
 body{
-  background-color:#F9F9F9
+  /*background-color:#F9F9F9*/
+  /*background-color:#EFF0F2*/
+margin:0;
+padding:0;
 }
 
 
@@ -104,7 +107,7 @@ float:left;
     }
   
 
-
+    
 
 
 
@@ -765,18 +768,30 @@ float:left;
 
 @media (min-width:400px){
 
+/*
+  p{
+    
+font-size: 5em;
+    
+   
+    background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 4s linear infinite;
+   
 
-
-
+  }
+*/
   
 
   .Nav_link{
-
+    
     text-decoration:none ;
-    color:black ;
+    color:white ;
     margin-right:2vw ;
-
-
+    font-size: 2em;
+    font-weight:bold;
     
   }
 
@@ -784,7 +799,7 @@ float:left;
   .Nav_link:hover{
 
     text-decoration:none ;
-    color:lightblue ;
+    color:red;
     margin-right:2vw ;
 
 
@@ -794,12 +809,16 @@ float:left;
 
   table{
     top:0;
+    margin:0;
+    padding:0;
+    height:18vh;
     /*background-image: url(/pc4.jpg);*/
-   
+   background-color: #585455;
     width:100vw;
-     text-align: right;
+     text-align: center;
      z-index:1;
      position:fixed;
+     margin-left: 0;
    padding:20px;
   
  
@@ -809,7 +828,7 @@ float:left;
     text-align: center;
     border-collapse:collapse;
     
-    border:1px solid black;
+  /*  border:1px solid black;*/
      padding:20px;
      text-align:center;
     
@@ -819,7 +838,7 @@ float:left;
     text-align: center;
     border-collapse:collapse;
     
-    border:1px solid black;
+   /* border:1px solid black;*/
      padding:20px;
      text-align:center;
 
@@ -831,8 +850,8 @@ float:left;
 .bottom{
 
   /*background-color:#2A4F5E;*/
-  
-  margin-top:15vh ;
+
+  margin-top:20vh ;
   padding:0;
   width:120vw;
   height:100vh;
@@ -842,8 +861,8 @@ float:left;
 
 button.logo1{
   padding:0;
-  margin:0;
-   width:20vw;
+  margin:0 ;
+   width:30vw;
    height:40vh;
    border:white;
   }
@@ -855,14 +874,15 @@ button.logo1:hover{
 padding:0;
 margin:0;
 width:60vw;
- transition: all 1s ease-out;
+ transition: all 2s ease-out;
+ transform:scale(1.2,1.2);
  height:40vh;
  border:white;
 }
 
 img.logo1{
   padding:0;
-  margin:0;
+  margin:0 auto;
 height: 43vh;
 width:100%;
 margin-right:2vw ;
@@ -877,7 +897,7 @@ float:left;
 
 p.pc1{
   width:100%;
-  font-size: 1em;
+  font-size: 1.2em;
   height:20vh;
  
 }
@@ -886,7 +906,7 @@ p.pc1{
 
 img.logo2{
   height: 40vh;
-width:25%;
+width:100%;
 margin-right:2vw ;
 display:block;
 float:left;
@@ -905,7 +925,7 @@ float:left;
 
   img.logo3{
     height: 40vh;
-    width:25%;
+    width:100%;
     margin-right:2vw ;
     display:inline;
     float:left;

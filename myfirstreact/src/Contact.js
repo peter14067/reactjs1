@@ -5,6 +5,13 @@ class Contact extends React.Component{
         return (
         
             <div>
+                
+            <div style={{marginTop:"5vh",color:"blue",}}>
+                聯繫我們
+            </div>
+
+
+
              <div class="bottom">
             <table1>
   
