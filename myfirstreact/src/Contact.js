@@ -5,10 +5,17 @@ class Contact extends React.Component{
         return (
         
             <div>
-                
-            <div style={{marginTop:"5vh",color:"blue",}}>
-                聯繫我們
+             <div>
+            <p5 style={{marginTop:"5vh",color:"blue",fontSize:"2em"}}>
+            客戶服務
+            </p5>
+            <br></br>
+            <br></br>
+            親愛的客戶您好，如果遇到什麼問題或有其他建議需要我們的協助，歡迎您透過以下的管道與我們聯繫，我們將竭誠為您服務。
+
+
             </div>
+           
 
 
 

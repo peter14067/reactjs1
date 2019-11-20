@@ -32,7 +32,7 @@ class Main extends React.Component {
                   <table >
                      <Link className="Nav_link" to="/" >首頁</Link>
                       <Link className="Nav_link" to="/about" >關於我們</Link>
-                      <Link className="Nav_link" to="/PTdescription" >經由介紹</Link>
+                      <Link className="Nav_link" to="/PTdescription" >精油介紹</Link>
                       <Link className="Nav_link" to="/Contact" >聯絡我們</Link>
                       <Link className="Nav_link" to="/Product" >植物介紹</Link>
                     

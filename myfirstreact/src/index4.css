@@ -1,8 +1,9 @@
 body{
   /*background-color:#F9F9F9*/
-  /*background-color:#EFF0F2*/
-margin:0;
+  background-color:#EFF0F2;
+margin:0 auto;
 padding:0;
+
 }
 
 
@@ -204,11 +205,11 @@ float:left;
 
 
 
-@media (device-width:414px) and (orientation : portrait){
+@media (min-width:414px) and (orientation : portrait){
 
 
   .Nav_link{
-
+    
     text-decoration:none ;
     color:black ;
     margin-right:2vw ;
@@ -232,8 +233,8 @@ float:left;
   table{
     top:0;
     background-color: white;
-   
-    width:95vw;
+   margin:0 auto;
+    width:100%;
      text-align: right;
      z-index:1;
      position:fixed;
@@ -246,7 +247,7 @@ float:left;
     text-align: center;
     border-collapse:collapse;
     
-    border:1px solid black;
+    /*border:1px solid black;*/
      padding:20px;
      text-align:center;
     
@@ -256,7 +257,7 @@ float:left;
     text-align: center;
     border-collapse:collapse;
     
-    border:1px solid black;
+   /* border:1px solid black;*/
      padding:20px;
      text-align:center;
 
@@ -790,7 +791,7 @@ font-size: 5em;
     text-decoration:none ;
     color:white ;
     margin-right:2vw ;
-    font-size: 2em;
+    font-size: 1em;
     font-weight:bold;
     
   }
@@ -811,10 +812,10 @@ font-size: 5em;
     top:0;
     margin:0;
     padding:0;
-    height:18vh;
+    height:19vh;
     /*background-image: url(/pc4.jpg);*/
    background-color: #585455;
-    width:100vw;
+    width:120%;
      text-align: center;
      z-index:1;
      position:fixed;
