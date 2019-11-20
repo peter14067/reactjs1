@@ -21,7 +21,7 @@ class About extends React.Component{
         <div >
        
             <div className="about">
-                    12345646546465456465
+                   <p7>樸凡踏實的農夫，32654645645645</p7>
             </div>
             <br></br>
             <div className="about1">

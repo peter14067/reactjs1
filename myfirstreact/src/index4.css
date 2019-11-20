@@ -11,12 +11,19 @@ height:200vh;
 
 }
 
+
+
 div.about{
-  background-image: url(./pc4.jpg);
+  background-image: url(./pc11.jpg);
   height:50vh;
   padding:20%;
   text-align: center;
-  color:white;
+  margin-top: auto;
+  color:blue;
+  background-size: cover;
+  opacity:0.1 ;
+  overflow: hidden;
+ 
 }
 
 div.about1{
