@@ -3,7 +3,7 @@ import  './index4.css';
 
 
 
-class Product extends React.Component{
+class PTdesciption extends React.Component{
     render(){
         return(
         <div>
@@ -14,4 +14,4 @@ class Product extends React.Component{
         );
     }
 }
-export {Product}
+export {PTdesciption}

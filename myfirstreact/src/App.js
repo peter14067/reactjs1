@@ -1,12 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, {Component}from "react"
+import  './index4.css'; 
 
-class Car extends React.Component{
+import { Map, GoogleApiWrapper } from 'google-maps-react';
+
+
+const mapStyles = {
+    width: '100%',
+    height: '100%',
+  };
+class App extends Component{
     render(){
+        return(
+        <div>
+    <Map
+          google={this.props.google}
+          zoom={8}
+          style={mapStyles}
+          initialCenter={{ lat: 47.444, lng: -122.176}}
+        />
 
-        return<h2>Hi, I am a Car!</h2>;
 
+        </div>
+        );
     }
 }
 
-export default Car;
+export default GoogleApiWrapper({
+    apiKey: 'TOKEN HERE'
+  })(App)

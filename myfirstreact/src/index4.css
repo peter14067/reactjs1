@@ -1,3 +1,7 @@
+body{
+  background-color:#F9F9F9
+}
+
 
 
 
@@ -5,7 +9,7 @@
 
 
 
-  
+ 
   
 body{
 
@@ -29,7 +33,7 @@ body{
 
 .bottom{
 
-  /*background-color:#2A4F5E;*/
+  background-color:;
   
   margin-top:15vh ;
   padding:0;
@@ -142,13 +146,16 @@ float:left;
     border:1px solid black;
      padding:20px;
      text-align:center;
+     
     
   }
 
   td{
+    
+    width:18vw;
     text-align: center;
     border-collapse:collapse;
-    
+    margin-left: 1;
     border:1px solid black;
      padding:20px;
      text-align:center;
@@ -612,6 +619,307 @@ float:left;
     }
   
 
+
+
+
+
+
+
+}
+
+@media (min-width:800px){
+
+
+  .Nav_link{
+
+    text-decoration:none ;
+    color:black ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  .Nav_link:hover{
+
+    text-decoration:none ;
+    color:lightblue ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  table{
+    top:0;
+    background-color: white;
+   
+    width:95vw;
+     text-align: right;
+     z-index:1;
+     position:fixed;
+   padding:20px;
+  
+ 
+  }
+
+  tr{
+    text-align: center;
+    border-collapse:collapse;
+    
+    border:1px solid black;
+     padding:20px;
+     text-align:center;
+    
+  }
+
+  td{
+    text-align: center;
+    border-collapse:collapse;
+    
+    border:1px solid black;
+     padding:20px;
+     text-align:center;
+
+
+  }
+
+
+  
+.bottom{
+
+  /*background-color:#2A4F5E;*/
+  
+  margin-top:15vh ;
+  padding:0;
+  width:120vw;
+  height:100vh;
+  overflow-y:auto;
+}
+
+
+
+
+
+img.logo1{
+height: 40vh;
+width:100%;
+margin-right:2vw ;
+display:block;
+float:left;
+
+  
+}
+
+
+
+p.pc1{
+  width:100%;
+  font-size: 1em;
+  height:15vh;
+ 
+}
+
+
+
+img.logo2{
+  height: 40vh;
+width:100%;
+margin-right:2vw ;
+display:block;
+float:left;
+
+  
+    
+  }
+  
+  
+  p.pc2{
+    width:100%;
+  font-size: 1em;
+  height:15vh;
+  }
+
+
+  img.logo3{
+    height: 40vh;
+    width:100%;
+    margin-right:2vw ;
+    display:inline;
+    float:left;
+    
+      
+    }
+    
+    
+    p.pc3{
+      width:90vw;
+      font-size: 1em;
+      height:40vh
+    }
+  
+}
+
+
+@media (min-width:400px){
+
+
+
+
+  
+
+  .Nav_link{
+
+    text-decoration:none ;
+    color:black ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  .Nav_link:hover{
+
+    text-decoration:none ;
+    color:lightblue ;
+    margin-right:2vw ;
+
+
+    
+  }
+
+
+  table{
+    top:0;
+    /*background-image: url(/pc4.jpg);*/
+   
+    width:100vw;
+     text-align: right;
+     z-index:1;
+     position:fixed;
+   padding:20px;
+  
+ 
+  }
+
+  tr{
+    text-align: center;
+    border-collapse:collapse;
+    
+    border:1px solid black;
+     padding:20px;
+     text-align:center;
+    
+  }
+
+  td{
+    text-align: center;
+    border-collapse:collapse;
+    
+    border:1px solid black;
+     padding:20px;
+     text-align:center;
+
+
+  }
+
+
+  
+.bottom{
+
+  /*background-color:#2A4F5E;*/
+  
+  margin-top:15vh ;
+  padding:0;
+  width:120vw;
+  height:100vh;
+  overflow-y:auto;
+}
+
+
+button.logo1{
+  padding:0;
+  margin:0;
+   width:20vw;
+   height:40vh;
+   border:white;
+  }
+
+
+
+
+button.logo1:hover{
+padding:0;
+margin:0;
+width:60vw;
+ transition: all 1s ease-out;
+ height:40vh;
+ border:white;
+}
+
+img.logo1{
+  padding:0;
+  margin:0;
+height: 43vh;
+width:100%;
+margin-right:2vw ;
+display:block;
+float:left;
+
+
+  
+}
+
+
+
+p.pc1{
+  width:100%;
+  font-size: 1em;
+  height:20vh;
+ 
+}
+
+
+
+img.logo2{
+  height: 40vh;
+width:25%;
+margin-right:2vw ;
+display:block;
+float:left;
+
+  
+    
+  }
+  
+  
+  p.pc2{
+    width:100%;
+  font-size: 1em;
+  height:20vh;
+  }
+
+
+  img.logo3{
+    height: 40vh;
+    width:25%;
+    margin-right:2vw ;
+    display:inline;
+    float:left;
+    
+      
+    }
+    
+    
+    p.pc3{
+      width:90vw;
+      font-size: 1em;
+      height:40vh
+    }
+  
 
 
 
