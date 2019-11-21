@@ -22,7 +22,8 @@ height:200vh;
   background-attachment: fixed;
 }
 .demo2{
-  font-family:"permant",cursive;
+  font-family:'Jacques Francois Shadow';
+  text-shadow: 6px 6px 0px white;
   position: absolute;
   font-size: 3em;
  
@@ -34,13 +35,15 @@ height:200vh;
   height: 40vh;
   line-height: 40vh;
   text-align: center;
-  color:white;
+  
   background:rgba(0,0,0,0.8);
   background-size: cover;
 }
 
 
-
+div.abouttest{
+  height:20vh;
+}
 
 
 

@@ -1,0 +1,39 @@
+
+.demo2-bg{
+    background: url(./pc11.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .demo2{
+    font-family:'Jacques Francois Shadow';
+    text-shadow: 6px 6px 0px white;
+    position: absolute;
+    font-size: 3em;
+   
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 40vh;
+    line-height: 40vh;
+    text-align: center;
+    
+    background:rgba(0,0,0,0.8);
+    background-size: cover;
+  }
+  
+  
+  div.abouttest{
+    height:20vh;
+  }
+  
+
+
+div.abouttest{
+   font-size: 10em;
+}
