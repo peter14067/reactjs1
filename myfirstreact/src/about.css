@@ -32,5 +32,41 @@
 
 
 div.abouttest{
-   font-size: 5em;
+   font-size: 3em;
+   font-weight: bold;
+   color:white;
+    font-family: 'Dancing Script', cursive;
 }
+
+
+img.logo1{
+    height: 40vh;
+    width:25%;
+    margin-right:2vw ;
+    display:block;
+    float:left;
+    
+      
+    }
+
+    img.logo2{
+        height: 40vh;
+      width:25%;
+      margin-right:2vw ;
+      display:block;
+      float:left;
+      
+        
+          
+        }
+
+
+        img.logo3{
+            height: 40vh;
+            width:25%;
+            margin-right:2vw ;
+            display:inline;
+            float:left;
+            
+              
+            }
