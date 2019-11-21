@@ -27,7 +27,7 @@ class About extends React.Component{
 
 
 
-                
+
             </div>
 
 
@@ -42,11 +42,14 @@ class About extends React.Component{
 
        
             <div className="demo2-bg" >
-                         <div className="demo2">我們是樸實的農夫，乾淨的庶民</div>
+                         <div className="demo2">About US</div>
             </div>
             <br></br>
-            <div className="about1">
-                    12345646546465456465
+            <div style={{backgroundColor:"red",height:"50vh"}}>
+
+                12345646
+
+
             </div>
 
 

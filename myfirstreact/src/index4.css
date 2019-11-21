@@ -16,24 +16,26 @@ height:200vh;
   background: url(./pc11.jpg);
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 40vh;
   position: relative;
   background-size: cover;
   background-attachment: fixed;
 }
 .demo2{
+  font-family:"permant",cursive;
   position: absolute;
-  font-size: 2em;
+  font-size: 3em;
+ 
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   width: 100vw;
-  height: 100vh;
+  height: 40vh;
   line-height: 40vh;
   text-align: center;
-  color:blue;
-  background:rgba(255,255,255,0.8);
+  color:white;
+  background:rgba(0,0,0,0.8);
   background-size: cover;
 }
 
