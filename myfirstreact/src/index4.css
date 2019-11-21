@@ -12,18 +12,65 @@ height:200vh;
 }
 
 
+.demo2-bg{
+  background: url(./pc11.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.demo2{
+  position: absolute;
+  font-size: 2em;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  line-height: 40vh;
+  text-align: center;
+  color:blue;
+  background:rgba(255,255,255,0.8);
+  background-size: cover;
+}
+
+
+
+
+
 
 div.about{
   background-image: url(./pc11.jpg);
-  height:50vh;
+  height:10vh;
+  width: 60vw;
   padding:20%;
   text-align: center;
   margin-top: auto;
-  color:blue;
+  
   background-size: cover;
-  opacity:0.1 ;
-  overflow: hidden;
  
+  opacity: 0.1;
+  overflow: hidden;
+  background-attachment:fixed;
+}
+
+
+div.about p7{
+  
+ 
+  
+  
+  
+ 
+  background:rgb(255,255,255,1);
+  
+  font-size: 2em;
+ 
+  
+  
 }
 
 div.about1{

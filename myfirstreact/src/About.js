@@ -19,9 +19,30 @@ class About extends React.Component{
 
             
         <div >
+
+
+
+            <div>
+
+
+
+
+                
+            </div>
+
+
+
+
+
+
+
+
+
+
+
        
-            <div className="about">
-                   <p7>樸凡踏實的農夫，32654645645645</p7>
+            <div className="demo2-bg" >
+                         <div className="demo2">我們是樸實的農夫，乾淨的庶民</div>
             </div>
             <br></br>
             <div className="about1">
