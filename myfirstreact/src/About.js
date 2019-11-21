@@ -58,7 +58,8 @@ class About extends React.Component{
            
            
             <div className="demo2-bg" >
-                         <div className="demo2">About US</div>
+                         <div className="demo2">我們的努力  <img class="logo1" src={Logo1} alt="Logo" /><p style={{float:"left"}}>精油的提供</p> < /div>
+                        
             </div>
 
         </div>
