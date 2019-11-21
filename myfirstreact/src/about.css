@@ -3,7 +3,7 @@
     background: url(./pc11.jpg);
     background-size: cover;
     width: 100vw;
-    height: 40vh;
+    height: 100vh;
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
     top: 0;
     bottom: 0;
     width: 100vw;
-    height: 40vh;
+    height: 100vh;
     line-height: 40vh;
     text-align: center;
     
@@ -28,12 +28,9 @@
   }
   
   
-  div.abouttest{
-    height:20vh;
-  }
-  
+ 
 
 
 div.abouttest{
-   font-size: 10em;
+   font-size: 5em;
 }

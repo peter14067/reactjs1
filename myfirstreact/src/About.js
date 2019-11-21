@@ -44,14 +44,16 @@ class About extends React.Component{
             <div className="demo2-bg" >
                          <div className="demo2">About US</div>
             </div>
-            <br></br>
-            <div style={{backgroundColor:"#52453C",height:"50vh"}}>
+            
+            <div style={{backgroundColor:"#52453C",height:"100vh"}}>
                 <div className="abouttest">
                 家庭成員
                 </div>
 
             </div>
-
+            <div className="demo2-bg" >
+                         <div className="demo2">About US</div>
+            </div>
 
         </div>
       
