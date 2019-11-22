@@ -81,6 +81,31 @@ class About extends React.Component{
             </div>
             
             </div>
+        
+            <div class="rwd_slider_container_wrapper">
+  <div class="rwd_slider_container">
+    <div class="slider_container" >
+      <div>
+        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image1.png" alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image5.png" alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image3.png" alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image4.png" alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image5.png" alt="pure css slider" width="400" height="280" />
+      </div>
+    </div>
+  </div>
+</div>
+        
+        
+        
         </div>
       
         
