@@ -42,7 +42,48 @@ class About extends React.Component{
 
        
             <div className="demo2-bg" >
-                         <div className="demo2">About US</div>
+
+
+
+
+                         <div className="demo2"></div>
+                        
+            
+            <div class="rwd_slider_container_wrapper">
+  <div class="rwd_slider_container">
+    <div class="slider_container" >
+      <div>
+        <img src={Logo1} alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src={Logo2} alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src={Logo3} alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src={Logo4} alt="pure css slider" width="400" height="280" />
+      </div>
+      <div>
+        <img src={Logo5} alt="pure css slider" width="400" height="280" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
             
             <div style={{backgroundColor:"#33C496",height:"100vh"}}>
@@ -98,28 +139,6 @@ class About extends React.Component{
             
             
             
-            
-            <div class="rwd_slider_container_wrapper">
-  <div class="rwd_slider_container">
-    <div class="slider_container" >
-      <div>
-        <img src={Logo1} alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src={Logo2} alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src={Logo3} alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src={Logo4} alt="pure css slider" width="400" height="280" />
-      </div>
-      <div>
-        <img src={Logo5} alt="pure css slider" width="400" height="280" />
-      </div>
-    </div>
-  </div>
-</div>
         
         
         
