@@ -4,6 +4,8 @@ import Logo1 from './112101.jpg';
 import Logo2 from './112102.jpg';
 import Logo3 from './112103.jpg';
 import Logo4 from './112201.jpg';
+import Logo5 from './112104.jpg';
+
 
 
 class About extends React.Component{
@@ -86,19 +88,19 @@ class About extends React.Component{
   <div class="rwd_slider_container">
     <div class="slider_container" >
       <div>
-        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image1.png" alt="pure css slider" width="400" height="280" />
+        <img src={Logo1} alt="pure css slider" width="400" height="280" />
       </div>
       <div>
-        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image5.png" alt="pure css slider" width="400" height="280" />
+        <img src={Logo2} alt="pure css slider" width="400" height="280" />
       </div>
       <div>
-        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image3.png" alt="pure css slider" width="400" height="280" />
+        <img src={Logo3} alt="pure css slider" width="400" height="280" />
       </div>
       <div>
-        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image4.png" alt="pure css slider" width="400" height="280" />
+        <img src={Logo4} alt="pure css slider" width="400" height="280" />
       </div>
       <div>
-        <img src="http://blog.shihshih.com/wp-content/uploads/2018/08/image5.png" alt="pure css slider" width="400" height="280" />
+        <img src={Logo5} alt="pure css slider" width="400" height="280" />
       </div>
     </div>
   </div>
