@@ -49,18 +49,32 @@ class About extends React.Component{
                 <div className="abouttest">
                 家庭成員介紹
                 </div>
-                <img class="logo1" src={Logo1} alt="Logo" /> 
+                <div class="box">
                
-                <img class="logo2" src={Logo2} alt="Logo" /> 
-                <img class="logo3" src={Logo3} alt="Logo" /> 
-                <p style={{display:"block"}}>777777777</p>
-                123132
+                <img src={Logo1} alt="Logo" /> 
+                <p style={{fontSize:"1.5em",fontFamily:"cursive"}}>這是媽媽，這裡大大小小的花圃都是由她負責去澆花，施肥處理的。</p>
+                </div>
+                
+                <div class="box">
+            
+                <img src={Logo2}   alt="Logo" /> 
+                <p style={{fontSize:"1.5em",fontFamily:"cursive"}}>這是姐姐，家裡網站的logo以及藝術上的設計都是由她處理的。</p>
+               
+                </div>
+                <div class="box">
+           
+                <img  src={Logo3} alt="Logo" /> 
+                123
+              
+                </div>
+               
+              
             </div>
            
            
            
             <div className="demo2-bg" >
-                         <div className="demo2">我們的努力  <img class="logo1" src={Logo1} alt="Logo" /><p style={{float:"left"}}>精油的提供</p > < /div>
+                         <div className="demo2">我們的努力 < /div>
                         
             </div>
 

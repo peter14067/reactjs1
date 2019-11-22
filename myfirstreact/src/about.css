@@ -31,11 +31,17 @@
  
 
 
+.box{width:30vw; text-align:center;float: left;margin-right: 3vw;}
+
+.box img {width:30vw;display: block;height:50vh;background-size: cover;margin-right: 1vw;}
+
+
 div.abouttest{
    font-size: 3em;
    font-weight: bold;
    color:white;
     font-family: 'Dancing Script', cursive;
+    width:50vw;
 }
 
 
@@ -65,8 +71,13 @@ img.logo1{
             height: 40vh;
             width:25%;
             margin-right:2vw ;
-            display:inline;
+            display:block;
             float:left;
+            
             
               
             }
+
+
+
+            
