@@ -84,10 +84,7 @@ class About extends React.Component{
 
             <div style={{backgroundColor:"#33C496",height:"100vh",borderTop:"2px solid white"}}>
            
-            <div class="hover">
-            <img src={Logo6} alt="Logo" /> 
-            <img src={Logo5} alt="Logo" /> 
-            </div>
+          
             
             </div>
         
