@@ -3,6 +3,8 @@ import  './about.css';
 import Logo1 from './112101.jpg';
 import Logo2 from './112102.jpg';
 import Logo3 from './112103.jpg';
+import Logo4 from './112201.jpg';
+
 
 class About extends React.Component{
     
@@ -22,13 +24,7 @@ class About extends React.Component{
 
 
 
-            <div>
-
-
-
-
-
-            </div>
+         
 
 
 
@@ -45,14 +41,14 @@ class About extends React.Component{
                          <div className="demo2">About US</div>
             </div>
             
-            <div style={{backgroundColor:"#52453C",height:"100vh"}}>
+            <div style={{backgroundColor:"#33C496",height:"100vh"}}>
                 <div className="abouttest">
                 家庭成員介紹
                 </div>
                 <div class="box">
                
                 <img src={Logo1} alt="Logo" /> 
-                <p style={{fontSize:"1.5em",fontFamily:"cursive"}}>這是媽媽，這裡大大小小的花圃都是由她負責去澆花，施肥處理的。</p>
+                <p>這是媽媽，這裡大大小小的花圃都是由她負責去澆花，施肥處理的。</p>
                 </div>
                 
                 <div class="box">
@@ -64,7 +60,7 @@ class About extends React.Component{
                 <div class="box">
            
                 <img  src={Logo3} alt="Logo" /> 
-                123
+                <p style={{fontSize:"1.5em",fontFamily:"cursive"}}> 這是哥哥，當初田裡的植物規劃以及環境整理都是有他負責。</p>
               
                 </div>
                
@@ -78,6 +74,13 @@ class About extends React.Component{
                         
             </div>
 
+
+            <div style={{backgroundColor:"#33C496",height:"100vh",borderTop:"2px solid white"}}>
+            <div class="box">
+            <img src={Logo4} alt="Logo" className="pc1"/> 
+            </div>
+            
+            </div>
         </div>
       
         

@@ -3,7 +3,7 @@
     background: url(./pc11.jpg);
     background-size: cover;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     position: relative;
     background-size: cover;
     background-attachment: fixed;
@@ -19,7 +19,7 @@
     top: 0;
     bottom: 0;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     line-height: 40vh;
     text-align: center;
     
@@ -34,6 +34,26 @@
 .box{width:30vw; text-align:center;float: left;margin-right: 3vw;}
 
 .box img {width:30vw;display: block;height:50vh;background-size: cover;margin-right: 1vw;}
+
+.box p{
+   font-size:1.5em;
+  font-family:cursive;
+  display:none;
+}
+
+.box:hover p{
+    font-size:1.5em;
+   font-family:cursive;
+  
+   display: block;
+ }
+
+img.pc1:hover{
+  
+
+}
+
+
 
 
 div.abouttest{
