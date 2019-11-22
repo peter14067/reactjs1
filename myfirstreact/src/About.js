@@ -3,8 +3,10 @@ import  './about.css';
 import Logo1 from './112101.jpg';
 import Logo2 from './112102.jpg';
 import Logo3 from './112103.jpg';
-import Logo4 from './112201.jpg';
-import Logo5 from './112104.jpg';
+import Logo4 from './112104.jpg';
+import Logo5 from './112201.jpg';
+import Logo6 from './pc1.jpg';
+
 
 
 
@@ -77,13 +79,26 @@ class About extends React.Component{
             </div>
 
 
+
+
+
             <div style={{backgroundColor:"#33C496",height:"100vh",borderTop:"2px solid white"}}>
-            <div class="box">
-            <img src={Logo4} alt="Logo" className="pc1"/> 
+           
+            <div class="hover">
+            <img src={Logo6} alt="Logo" /> 
+            <img src={Logo5} alt="Logo" /> 
             </div>
             
             </div>
         
+            
+            
+            
+            
+            
+            
+            
+            
             <div class="rwd_slider_container_wrapper">
   <div class="rwd_slider_container">
     <div class="slider_container" >

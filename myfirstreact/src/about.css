@@ -48,11 +48,6 @@
    display: block;
  }
 
-img.pc1:hover{
-  
-
-}
-
 
 
 
@@ -97,6 +92,33 @@ img.logo1{
             
               
             }
+
+
+            .hover {position:relative;}
+
+.hover img {
+  position:absolute;
+  /* CSS3淡出淡入效果,1秒 */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  background-size: cover;
+height: 50vh;
+width:35vw;
+}
+
+
+.hover img:nth-of-type(2):hover{
+  opacity:0;
+}
+
+
+
+
+
+
+
 
             .slider_container {
                 margin: 30px auto;
