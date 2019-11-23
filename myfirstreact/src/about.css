@@ -104,11 +104,13 @@ img.logo1{
             
 
 
-
+/*
             .hover {position:relative;}
-
+*/
             .hover img {
+                /*
               position:absolute;
+              */
               /* CSS3淡出淡入效果,1秒 */
               -webkit-transition: opacity 1s ease-in-out;
               -moz-transition: opacity 1s ease-in-out;
@@ -117,17 +119,44 @@ img.logo1{
               
               background-size:cover ;
               width:40vw;
+              
             }
 
             
-            .hover p{
-
-                display:block
-            }
             
+
+          
+
+            .hover img:nth-of-type(1){
+                opacity:1;
+              }
+
+              .hover img:nth-of-type(2){
+                
+                opacity: 0.1;
+                
+              }
+             
+            
+            .hover img:nth-of-type(1):hover+img:nth-of-type(2){
+              opacity:1 ;
+            }
+
             .hover img:nth-of-type(2):hover{
-              opacity:0.1;
-            }
+                
+                opacity: 1;
+                
+              }
+
+            .hover  p{
+              display: none ;
+              }
+
+              .hover:hover p{
+                display: block ;  
+                }
+
+           
 
 
 
