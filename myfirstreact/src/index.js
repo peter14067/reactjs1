@@ -30,7 +30,7 @@ class Main extends React.Component {
                   
              
                   <table >
-                     <Link className="Nav_link" to="/" >首頁</Link>
+                     
                       <Link className="Nav_link" to="/about" >關於我們</Link>
                       <Link className="Nav_link" to="/PTdescription" >精油介紹</Link>
                       <Link className="Nav_link" to="/Contact" >聯絡我們</Link>
@@ -43,7 +43,7 @@ class Main extends React.Component {
                  
              
 
-                  <Route exact path="/" component={Home} />
+                  <Route exact path="/about" component={Home} />
                   
                   <Route path="/about" component={About} />
                   <Route path="/PTdescription"  />

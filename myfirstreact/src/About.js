@@ -27,39 +27,7 @@ class About extends React.Component{
         <div >
 
 
-
-
-
-<div style={{backgroundColor:"#33C496",height:"60vh",borderTop:"2px solid white"}}>
-
-
-<div class="rwd_slider_container_wrapper">
-  <div class="rwd_slider_container">
-    <div class="slider_container" >
-      <div>
-        <img src={Logo1} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
-      </div>
-      <div>
-        <img src={Logo2} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
-      </div>
-      <div>
-        <img src={Logo3} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
-      </div>
-      <div>
-        <img src={Logo4} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
-      </div>
-      <div>
-        <img src={Logo5} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-</div>
-
+/*
 
 
 
@@ -123,11 +91,12 @@ class About extends React.Component{
             <div class="hover">
             <img src={Logo6} alt="Logo" /> 
             <img src={Logo5} alt="Logo" /> 
+        
             </div>
-            
+          
             </div>
         
-            
+            <p>123132Q14324234324324324234323</p>
             
             
             
@@ -136,9 +105,9 @@ class About extends React.Component{
             
             
             <div class="rwd_slider_container_wrapper">
-  <div class="rwd_slider_container">
-    <div class="slider_container" >
-      <div>
+             <div class="rwd_slider_container">
+              <div class="slider_container" >
+          <div>
         <img src={Logo1} alt="pure css slider" width="400" height="280" />
       </div>
       <div>

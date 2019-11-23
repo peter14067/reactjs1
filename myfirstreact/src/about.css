@@ -34,7 +34,7 @@ table{
  
 
 
-.box{width:30vw; text-align:center;float: left;margin-right: 3vw;}
+.box{width:30vw; text-align:center;float: left;margin-right: 2vw;}
 
 .box img {width:30vw;display: block;height:50vh;background-size: cover;margin-right: 1vw;}
 
@@ -119,10 +119,13 @@ img.logo1{
             }
 
             
-            
+            .hover p{
+
+                display:block
+            }
             
             .hover img:nth-of-type(2):hover{
-              opacity:0.5;
+              opacity:0.1;
             }
 
 
