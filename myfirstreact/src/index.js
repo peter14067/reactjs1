@@ -27,7 +27,7 @@ class Main extends React.Component {
                  
                   
                 
-                  <div class="top">
+                  
              
                   <table >
                      <Link className="Nav_link" to="/" >首頁</Link>
@@ -38,7 +38,7 @@ class Main extends React.Component {
                     
                   </table>
                 
-                  </div>
+                 
                  
                  
              
