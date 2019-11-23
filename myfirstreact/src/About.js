@@ -95,9 +95,12 @@ class About extends React.Component{
            
              
            
-            <p>這是檀香，經歷了5年的成長以後，每個檀香都變得很大了~~這是檀香，經歷了5年的成長以後，每個檀香都變得很大了~~</p>
-            <img src={Logo5} alt="Logo" />
-            <img src={Logo6} alt="Logo" /> 
+            <p class="p1">這是檀香，經歷了5年的成長以後，每個檀香都變得很大了~~這是檀香，經歷了5年的成長以後，每個檀香都變得很大了~~</p>
+            <br></br>
+            <img src={Logo6} alt="Logo" />
+            <img src={Logo5} alt="Logo" /> 
+            <p class="p2">1563165156165156</p>
+            
             </div>
            
           
