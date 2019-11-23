@@ -30,26 +30,26 @@ class About extends React.Component{
 
 
 
-<div style={{backgroundColor:"#33C496",height:"100vh",borderTop:"2px solid white"}}>
+<div style={{backgroundColor:"#33C496",height:"60vh",borderTop:"2px solid white"}}>
 
 
 <div class="rwd_slider_container_wrapper">
   <div class="rwd_slider_container">
     <div class="slider_container" >
       <div>
-        <img src={Logo1} alt="pure css slider" width="400" height="280" />
+        <img src={Logo1} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
       </div>
       <div>
-        <img src={Logo2} alt="pure css slider" width="400" height="280" />
+        <img src={Logo2} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
       </div>
       <div>
-        <img src={Logo3} alt="pure css slider" width="400" height="280" />
+        <img src={Logo3} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
       </div>
       <div>
-        <img src={Logo4} alt="pure css slider" width="400" height="280" />
+        <img src={Logo4} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
       </div>
       <div>
-        <img src={Logo5} alt="pure css slider" width="400" height="280" />
+        <img src={Logo5} alt="pure css slider" width="400" height="280" style={{backgroundSize:"cover"}}/>
       </div>
     </div>
   </div>

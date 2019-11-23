@@ -167,7 +167,7 @@ img.logo1{
                 height: 200;
                 
                 background-image: url(./pc1.jpg);
-                
+                background-size: cover;
                 /*
                 background-image: url(http://blog.shihshih.com/wp-content/uploads/2018/08/image1.png);
                 */
