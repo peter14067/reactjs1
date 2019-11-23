@@ -7,9 +7,10 @@ import Logo4 from './112104.jpg';
 import Logo5 from './112201.jpg';
 import Logo6 from './pc1.jpg';
 
+/*
+<img src={Logo5} alt="pure css slider" width="400" height="280" />
 
-
-
+*/
 class About extends React.Component{
     
     
@@ -37,19 +38,19 @@ class About extends React.Component{
   <div class="rwd_slider_container">
     <div class="slider_container" >
       <div>
-        <img src={Logo1} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}}/>
+        <img src={Logo1} alt="pure css slider" width="40vw" height="28vh" style={{backgroundSize:"cover"}}/>
       </div>
       <div>
-        <img src={Logo2} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
+        <img src={Logo2} alt="pure css slider" width="40vw" height="28vh" style={{backgroundSize:"cover"}} />
       </div>
       <div>
-        <img src={Logo3} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
+        <img src={Logo3} alt="pure css slider" width="40vw" height="28vh" style={{backgroundSize:"cover"}} />
       </div>
       <div>
-        <img src={Logo4} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
+        <img src={Logo4} alt="pure css slider" width="40vw" height="28vh" style={{backgroundSize:"cover"}} />
       </div>
       <div>
-        <img src={Logo5} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
+        <img src={Logo5} alt="pure css slider" width="40vw" height="28vh" style={{backgroundSize:"cover"}} />
       </div>
     </div>
   </div>
@@ -140,16 +141,16 @@ class About extends React.Component{
   <div class="rwd_slider_container">
     <div class="slider_container" >
       <div>
-        <img src={Logo1} alt="pure css slider" width="20vw" height="20vh" />
+        <img src={Logo1} alt="pure css slider" style={{width:"20vw",height:"20vh"}} />
       </div>
       <div>
-        <img src={Logo2} alt="pure css slider" width="20vw" height="20vh" />
+        <img src={Logo2} alt="pure css slider" style={{width:"20vw",height:"20vh"}} />
       </div>
       <div>
-        <img src={Logo3} alt="pure css slider" width="400" height="280" />
+        <img src={Logo3} alt="pure css slider" style={{width:"20vw",height:"20vh"}} />
       </div>
       <div>
-        <img src={Logo4} alt="pure css slider" width="400" height="280" />
+        <img src={Logo4} alt="pure css slider" style={{width:"20vw",height:"20vh"}}  />
       </div>
       <div>
         <img src={Logo5} alt="pure css slider" width="400" height="280" />
