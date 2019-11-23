@@ -1,3 +1,8 @@
+table{
+    height:5vh;
+
+
+}
 
 .demo2-bg{
     background: url(./pc11.jpg);
@@ -38,14 +43,14 @@
 .box p{
    font-size:1.5em;
   font-family:cursive;
-  display:none;
+  
 }
 
 .box:hover p{
     font-size:1.5em;
    font-family:cursive;
   
-   display: block;
+   
  }
 
 img.pc1:hover{
@@ -114,10 +119,12 @@ img.logo1{
               background-size:cover ;
               width:40vw;
             }
+
+            
             
             
             .hover img:nth-of-type(2):hover{
-              opacity:0;
+              opacity:0.5;
             }
 
 

@@ -122,6 +122,7 @@ class About extends React.Component{
            
             <div class="hover">
             <img src={Logo6} alt="Logo" /> 
+           
             <img src={Logo5} alt="Logo" /> 
             </div>
             
