@@ -264,8 +264,8 @@ img.logo1{
   }
 
   .rwd_slider_container_wrapper {
-    margin: 30px auto !important;
-    width: 420px;
+    margin: 10vh auto !important;
+    width: 40vw;
   }
   .rwd_slider_container {
     position: relative;

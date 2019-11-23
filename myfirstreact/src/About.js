@@ -140,10 +140,10 @@ class About extends React.Component{
   <div class="rwd_slider_container">
     <div class="slider_container" >
       <div>
-        <img src={Logo1} alt="pure css slider" width="400" height="280" />
+        <img src={Logo1} alt="pure css slider" width="20vw" height="20vh" />
       </div>
       <div>
-        <img src={Logo2} alt="pure css slider" width="400" height="280" />
+        <img src={Logo2} alt="pure css slider" width="20vw" height="20vh" />
       </div>
       <div>
         <img src={Logo3} alt="pure css slider" width="400" height="280" />
