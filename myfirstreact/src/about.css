@@ -153,10 +153,49 @@ img.logo1{
               }
 
               .hover:hover p{
-                display: block ;  
+                display: block ; 
+                font-size: 2em; 
+                width:80vw;
                 }
 
            
+                
+
+
+
+
+
+
+
+                .hover img:nth-of-type(3){
+                    opacity:1;
+                  }
+    
+                  .hover img:nth-of-type(4){
+                    
+                    opacity: 0.1;
+                    
+                  }
+                 
+                
+                .hover img:nth-of-type(3):hover+img:nth-of-type(4){
+                  opacity:1 ;
+                }
+    
+                .hover img:nth-of-type(4):hover{
+                    
+                    opacity: 1;
+                    
+                  }
+    
+                .hover  p{
+                  display: none ;
+                  }
+    
+                  .hover:hover p{
+                    display: block ;  
+                    }
+    
 
 
 
