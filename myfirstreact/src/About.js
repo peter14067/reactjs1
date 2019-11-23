@@ -37,19 +37,19 @@ class About extends React.Component{
   <div class="rwd_slider_container">
     <div class="slider_container" >
       <div>
-        <img src={Logo1} alt="pure css slider" width="400" height="280" />
+        <img src={Logo1} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}}/>
       </div>
       <div>
-        <img src={Logo2} alt="pure css slider" width="400" height="280" />
+        <img src={Logo2} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
       </div>
       <div>
-        <img src={Logo3} alt="pure css slider" width="400" height="280" />
+        <img src={Logo3} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
       </div>
       <div>
-        <img src={Logo4} alt="pure css slider" width="400" height="280" />
+        <img src={Logo4} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
       </div>
       <div>
-        <img src={Logo5} alt="pure css slider" width="400" height="280" />
+        <img src={Logo5} alt="pure css slider" width="20vw" height="14vh" style={{backgroundSize:"cover"}} />
       </div>
     </div>
   </div>
