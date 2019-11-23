@@ -29,8 +29,8 @@ class About extends React.Component{
 
 
 
- <div style={{backgroundColor:"#33C496",height:"100vh",borderTop:"2px solid white"}}></div>
 
+<div style={{backgroundColor:"#33C496",height:"100vh",borderTop:"2px solid white"}}>
 
 
 <div class="rwd_slider_container_wrapper">
@@ -58,7 +58,7 @@ class About extends React.Component{
 
 
 
-
+</div>
 
 
 
