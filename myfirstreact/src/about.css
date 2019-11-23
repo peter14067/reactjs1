@@ -203,27 +203,7 @@ img.logo1{
   
     
   }
-  @keyframes bk {
-    0% {
-      left: 0;
-      /* 初始位置*/
-    }
-    4% {
-      left: -100%;
-      /* 0 - 1秒 滑出*/
-    }  
-  }
   
-  @keyframes bk {
-    0% {
-      left: 0;
-      /* 初始位置*/
-    }
-    4% {
-      left: -100%;
-      /* 0 - 1秒 滑出*/
-    }  
-  }
   .slider_container div:nth-child(5) {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
