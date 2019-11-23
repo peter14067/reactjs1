@@ -43,9 +43,9 @@ class Main extends React.Component {
                  
              
 
-                  <Route exact path="/" component={Home} />
+                  <Route exact path="/" component={About} />
                   
-                  <Route path="/" component={About} />
+                
                   <Route path="/PTdescription"  />
                   <Route path="/Contact" component={Contact} />
                   <Route path="/Product" component={Product} />
