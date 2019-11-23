@@ -246,6 +246,23 @@ img.logo1{
     animation-delay: 0s;
   }
 
+  .slider_container div:nth-child(4) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+  }
+  .slider_container div:nth-child(3) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+  }
+  .slider_container div:nth-child(2) {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+  }
+  .slider_container div:nth-child(1) {
+    -webkit-animation-delay: 20s;
+    animation-delay: 20s;
+  }
+
   .rwd_slider_container_wrapper {
     margin: 30px auto !important;
     width: 420px;
