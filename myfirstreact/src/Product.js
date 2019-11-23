@@ -14,7 +14,7 @@ class Product extends React.Component{
         return( 
    
         <div>
-            <div>
+            <div style={{marginTop:"15vh"}}>
            <img class="logo1" src={Logo1} alt="Logo" /> 
            <p style={{color:"blue",fontSize:"2em"}}>檀香的說明</p>
            <p className="pc1" >
