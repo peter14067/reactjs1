@@ -6,7 +6,7 @@ import Logo3 from './112103.jpg';
 import Logo4 from './112104.jpg';
 import Logo5 from './112201.jpg';
 import Logo6 from './pc1.jpg';
-
+import Menu, { SubMenu, MenuItem } from 'rc-menu';
 
 
 
@@ -109,6 +109,22 @@ class About extends React.Component{
         
          
             
+
+
+             
+            <Menu>
+    <MenuItem>1</MenuItem>
+    <MenuItem>2</MenuItem>
+    <MenuItem>3</MenuItem>
+    <SubMenu title="2">
+      <MenuItem>2-1</MenuItem>
+      <MenuItem>2-2</MenuItem>
+      <MenuItem>2-3</MenuItem>
+      <MenuItem>2-4</MenuItem>
+      <MenuItem>2-5</MenuItem>
+      <MenuItem>2-6</MenuItem>
+    </SubMenu>
+  </Menu>,
             
             
             
