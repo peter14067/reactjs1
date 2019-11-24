@@ -7,7 +7,7 @@ import { About } from "./About"
 import {Contact} from "./Contact"
 import {Product} from "./Product"
 import {Component} from "./App"
-
+import Toggle from 'react-toggled'
 
 
 

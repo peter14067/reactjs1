@@ -12,7 +12,8 @@
     "react-native-cli": "^2.0.1",
     "react-native-elements": "^1.2.7",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-toggled": "^1.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
