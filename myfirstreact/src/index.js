@@ -49,9 +49,14 @@ class Main extends React.Component {
                  
                   
                 
+                  <Menu>
+    <MenuItem>1</MenuItem>
+    <SubMenu title="2">
+      <MenuItem>2-1</MenuItem>
+    </SubMenu>
+  </Menu>,
 
-
-                           
+                            
                   <Toggle>
     {({on, getTogglerProps, setOn, setOff, toggle}) =>
       <div>
