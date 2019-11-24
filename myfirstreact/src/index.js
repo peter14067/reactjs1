@@ -51,8 +51,15 @@ class Main extends React.Component {
                 
                   <Menu>
     <MenuItem>1</MenuItem>
+    <MenuItem>2</MenuItem>
+    <MenuItem>3</MenuItem>
     <SubMenu title="2">
       <MenuItem>2-1</MenuItem>
+      <MenuItem>2-2</MenuItem>
+      <MenuItem>2-3</MenuItem>
+      <MenuItem>2-4</MenuItem>
+      <MenuItem>2-5</MenuItem>
+      <MenuItem>2-6</MenuItem>
     </SubMenu>
   </Menu>,
 
