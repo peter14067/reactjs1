@@ -12,6 +12,21 @@ import Menu, { SubMenu, MenuItem } from 'rc-menu';
 
 
 import  './index4.css'; 
+
+            /*
+<Toggle>
+{({on, getTogglerProps, setOn, setOff, toggle}) =>
+  <div>
+    <button {...getTogglerProps()}>accessible toggle button</button>
+    <button onClick={toggle}>uses toggle action</button>
+    <button onClick={setOn}>set on</button>
+    <button onClick={setOff}>set off</button>
+    <div>
+      {on ? 'Toggled On' : 'Toggled Off'}
+    </div>
+  </div>}
+</Toggle>
+*/
 class Main extends React.Component {
   render() {
       return (
@@ -48,34 +63,9 @@ class Main extends React.Component {
                   <Route path="/Product" component={Product} />
                  
                   
-                
-                  <Menu>
-    <MenuItem>1</MenuItem>
-    <MenuItem>2</MenuItem>
-    <MenuItem>3</MenuItem>
-    <SubMenu title="2">
-      <MenuItem>2-1</MenuItem>
-      <MenuItem>2-2</MenuItem>
-      <MenuItem>2-3</MenuItem>
-      <MenuItem>2-4</MenuItem>
-      <MenuItem>2-5</MenuItem>
-      <MenuItem>2-6</MenuItem>
-    </SubMenu>
-  </Menu>,
+               
 
-                            
-                  <Toggle>
-    {({on, getTogglerProps, setOn, setOff, toggle}) =>
-      <div>
-        <button {...getTogglerProps()}>accessible toggle button</button>
-        <button onClick={toggle}>uses toggle action</button>
-        <button onClick={setOn}>set on</button>
-        <button onClick={setOff}>set off</button>
-        <div>
-          {on ? 'Toggled On' : 'Toggled Off'}
-        </div>
-      </div>}
-  </Toggle>
+                
                 
               </div>
               
